@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь с автором медитаций</title>
+    <meta name="keywords" content="кто автор медитативных практик">
+    <meta name="description" content="Узнаете о том, как связаться с автором медитаций и аффирмаций">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/img/lotos.ico">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <input type="checkbox" id="burger">
+            <label for="burger"></label>
+            <nav class="navbar">
+                <ul class="ul_menu">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/ob-avtore.html">Об авторе</a></li>
+                    <li><a href="/meditaciya.html">Медитация</a></li>
+                    <li><a href="/affirmaciya.html">Аффирмация</a></li>
+                    <li><a href="/blagodarnost.html">Благодарность</a></li>
+                    <li><a class="selected" href="/obratnaya-svyaz.html">Обратная связь</a></li>
+                    <li><a href="/kontakty.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+            <section>
+                <div class="post">
+                    <h3>Форма обратной связи</h3>
+                    
+                        <form class="form" action="/send.php" method="post" id="form">
+                            <input class="input" type="text" name="name" placeholder="Имя">
+                            <input class="input" type="email" name="email" placeholder="E-mail">
+                            <textarea id="formMessage" name="message"placeholder="Ваше сообщение" ></textarea>
+                            <button class="a_posts pad" type="submit">Отправить сообщение</button>
+                            <div class="checkbox">
+                                <input checked type="checkbox" name="agreement" id="formAgreement" class="checkbox_input">
+                                <label class="checkbox_label" for="formAgreement"><span class="p_posts">Я даю своё согласие на обработку персональных данных в соответствии с <a class="a_form" href="">условиями</a></span></label>
+                            </div>
+                        </form>
+                    
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <p class="p_footer">© Все права защищены. 2021 год.</p>
+            <div class="dev"><a class="a_footer" href="https://vk.com/stanislavmaskaev" target="_blank">Вёрстка</a>
+            </div>
+        </footer>
+    </div>
+    <a href="#" title="Вернуться наверх" class="buttonup"><img src="/img/up.svg" alt="Вернуться наверх"></a>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
