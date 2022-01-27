@@ -1,0 +1,4 @@
+User-agent: 
+Crawl-delay: 1
+Host: https://avtorskie-meditacii.ru/
+Sitemap: https://avtorskie-meditacii.ru/sitemap.xml

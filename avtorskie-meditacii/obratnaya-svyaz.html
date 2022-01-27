@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь с автором медитаций</title>
+    <meta name="keywords" content="кто автор медитативных практик">
+    <meta name="description" content="Узнаете о том, как связаться с автором медитаций и аффирмаций">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/img/lotos.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <input type="checkbox" id="burger">
+            <label for="burger"></label>
+            <nav class="navbar">
+                <ul class="ul_menu">
+                    <li><a href="https://avtorskie-meditacii.ru/">Главная</a></li>
+                    <li><a href="https://avtorskie-meditacii.ru/ob-avtore.html">Об авторе</a></li>
+                    <li><a href="https://avtorskie-meditacii.ru/meditaciya.html">Медитация</a></li>
+                    <li><a href="https://avtorskie-meditacii.ru/affirmaciya.html">Аффирмация</a></li>
+                    <li><a href="https://avtorskie-meditacii.ru/blagodarnost.html">Благодарность</a></li>
+                    <li><a class="selected" href="https://avtorskie-meditacii.ru/obratnaya-svyaz.html">Обратная связь</a></li>
+                    <li><a href="https://avtorskie-meditacii.ru/kontakty.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+            <section>
+                <div class="post">
+                    <h3>Форма обратной связи</h3>
+                    
+                        <form class="form" action="/send.php" method="post" id="form">
+                            <input class="input" type="text" name="name" placeholder="Имя">
+                            <input class="input" type="email" name="email" placeholder="E-mail">
+                            <textarea id="formMessage" name="message" placeholder="Ваше сообщение" ></textarea>
+                            <button class="a_posts" type="submit">Отправить сообщение</button>
+                            <div class="checkbox">
+                                <input checked type="checkbox" name="agreement" id="formAgreement" class="checkbox_input">
+                                <label class="checkbox_label" for="formAgreement"><span class="p_posts">Я даю своё согласие на <a class="a_form" href="https://avtorskie-meditacii.ru/ps.pdf" target="_blank">обработку персональных данных</a></span></label>
+                            </div>
+                        </form>
+                    
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <p class="p_footer">© Все права защищены. 2021 год.</p>
+            <div class="dev"><a class="a_footer" href="https://vk.com/stanislavmaskaev" target="_blank">Вёрстка</a>
+            </div>
+        </footer>
+    </div>
+    <a href="#" title="Вернуться наверх" class="buttonup"><img src="/img/up.svg" alt="Вернуться наверх"></a>
+    <script src="/js/script.js"></script>
+    
+    <!-- Yandex.Metrika counter -->
+<script>
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(84878974, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/84878974" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KPGPPT2N0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6KPGPPT2N0');
+</script>
+    
+</body>
+
+</html>
